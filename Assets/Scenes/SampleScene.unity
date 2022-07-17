@@ -161,6 +161,9 @@ MonoBehaviour:
   _finishPlatform: {fileID: 2735235801261862702, guid: 3b9c7fa20c18d8d40b0039c986efd321, type: 3}
   _platform:
   - {fileID: -6934451069366134176, guid: b28afc1f822a961419d72c7746b38022, type: 3}
+  - {fileID: -6934451069366134176, guid: 077966296cf5055448dcc057d8332514, type: 3}
+  - {fileID: -6934451069366134176, guid: df403160e24f86a4da523b24c6476080, type: 3}
+  - {fileID: -6934451069366134176, guid: 16a7e479ce5b01d4eacdeea02c031005, type: 3}
 --- !u!4 &388498014
 Transform:
   m_ObjectHideFlags: 0
