@@ -5,9 +5,4 @@ using UnityEngine;
 
 public class FinishPlatformSigment : MonoBehaviour
 {
-    [SerializeField] private EndGameUI _endGameUI;
-    private void OnTriggerEnter(Collider other)
-    {
-        Instantiate(_endGameUI);
-    }
 }

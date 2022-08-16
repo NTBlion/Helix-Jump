@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8169499677640554216}
   - component: {fileID: 8169499677640554223}
   - component: {fileID: 8169499677640554222}
-  - component: {fileID: 2080514436158805553}
   m_Layer: 5
   m_Name: EndGameUI
   m_TagString: Untagged
@@ -102,18 +101,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &2080514436158805553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8169499677640554221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46e02995e39489441a51f4ebf008cfd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8169499678157362321
 GameObject:
   m_ObjectHideFlags: 0

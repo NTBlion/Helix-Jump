@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9137650806600385933}
-  - component: {fileID: 2735235801261862702}
   m_Layer: 0
   m_Name: FinishPlatform
   m_TagString: Untagged
@@ -40,20 +39,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2735235801261862702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7826233007814137844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8726fa9c4f638ae4eaa100219e239a44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _bounceForce: 0
-  _bounceRadius: 0
 --- !u!1001 &1279349735589007858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -159,7 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f41a3f2a422bfa4d85b5d8210265d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _endGameUI: {fileID: 2080514436158805553, guid: 97547de3e61eaed458de04370e58f2d6, type: 3}
 --- !u!1001 &1743808703916719454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -443,7 +427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f41a3f2a422bfa4d85b5d8210265d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _endGameUI: {fileID: 2080514436158805553, guid: 97547de3e61eaed458de04370e58f2d6, type: 3}
 --- !u!1001 &5782188142458729853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -722,7 +705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f41a3f2a422bfa4d85b5d8210265d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _endGameUI: {fileID: 2080514436158805553, guid: 97547de3e61eaed458de04370e58f2d6, type: 3}
 --- !u!4 &6570871558908794544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bee1803e13ac2f84282ef9352c954fd9, type: 3}
@@ -828,7 +810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f41a3f2a422bfa4d85b5d8210265d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _endGameUI: {fileID: 2080514436158805553, guid: 97547de3e61eaed458de04370e58f2d6, type: 3}
 --- !u!4 &6499560029278757242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bee1803e13ac2f84282ef9352c954fd9, type: 3}

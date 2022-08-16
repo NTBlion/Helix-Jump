@@ -61,12 +61,11 @@
     <Compile Include="Assets\Scripts\Tower\TowerBuilder.cs" />
     <Compile Include="Assets\Scripts\Platform\FinishPlatformSigment.cs" />
     <Compile Include="Assets\Scripts\Ball\Ball.cs" />
+    <Compile Include="Assets\Scripts\EndGameUI.cs" />
     <Compile Include="Assets\Scripts\Platform\PlatformSigment.cs" />
-    <Compile Include="Assets\Scripts\Platform\FinishPlatform.cs" />
     <Compile Include="Assets\Scripts\Platform\SpawnPlatform.cs" />
     <Compile Include="Assets\Scripts\Platform\Platform.cs" />
     <Compile Include="Assets\Scripts\Ball\BallTracking.cs" />
-    <Compile Include="Assets\Scripts\EndGameUI.cs" />
     <Compile Include="Assets\Scripts\Tower\TowerRotator.cs" />
   </ItemGroup>
   <ItemGroup>
