@@ -158,7 +158,7 @@ MonoBehaviour:
   _additionScale: 1
   _beam: {fileID: 8644167733887344553, guid: 697f5ae2e3ec17844a937ace33224a73, type: 3}
   _spawnPlatform: {fileID: -5404492437867346881, guid: b56f45c16fe638b43b67a296cd8e204a, type: 3}
-  _finishPlatform: {fileID: 2735235801261862702, guid: 3b9c7fa20c18d8d40b0039c986efd321, type: 3}
+  _finishPlatform: {fileID: 1230670211584412379, guid: 3b9c7fa20c18d8d40b0039c986efd321, type: 3}
   _platform:
   - {fileID: -6934451069366134176, guid: b28afc1f822a961419d72c7746b38022, type: 3}
   - {fileID: -6934451069366134176, guid: 077966296cf5055448dcc057d8332514, type: 3}
