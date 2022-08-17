@@ -67,7 +67,6 @@
     <Compile Include="Assets\Scripts\Platform\Platform.cs" />
     <Compile Include="Assets\Scripts\Ball\BallTracking.cs" />
     <Compile Include="Assets\Scripts\Tower\TowerRotator.cs" />
-    <Compile Include="Assets\Scripts\FinishGameUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
