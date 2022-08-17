@@ -350,13 +350,13 @@
 "Assets/Scripts/Ball/Ball.cs"
 "Assets/Scripts/Ball/BallJumper.cs"
 "Assets/Scripts/Ball/BallTracking.cs"
+"Assets/Scripts/GameLogic.cs"
+"Assets/Scripts/LevelGenerator.cs"
 "Assets/Scripts/Platform/FinishPlatform.cs"
-"Assets/Scripts/Platform/FinishPlatformSigment.cs"
 "Assets/Scripts/Platform/Platform.cs"
 "Assets/Scripts/Platform/PlatformSigment.cs"
 "Assets/Scripts/Platform/SpawnPlatform.cs"
 "Assets/Scripts/Tower/Beam.cs"
-"Assets/Scripts/Tower/TowerBuilder.cs"
 "Assets/Scripts/Tower/TowerRotator.cs"
 -langversion:9.0
 
