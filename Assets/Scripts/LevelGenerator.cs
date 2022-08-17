@@ -16,7 +16,7 @@ public class LevelGenerator : MonoBehaviour
     public float BeamScaleY => _levelCount / 2f + _startAndFinishAdditionalScale + _additionScale / 2f;
 
 
-    public FinishPlatform Build()
+    public  FinishPlatform Build()
     {
         GameObject beam = Instantiate(_beam, transform);
         beam.transform.localScale = new Vector3(1, BeamScaleY, 1);
@@ -31,15 +31,25 @@ public class LevelGenerator : MonoBehaviour
             SpawnPlatform(_platform[Random.Range(0, _platform.Length)], ref spawnPosition, beam.transform);
         }
 
-        SpawnPlatform(_finishPlatform, ref spawnPosition, beam.transform);
+        FinishPlatform finishPlatform = SpawnPlatform(_finishPlatform, ref spawnPosition, beam.transform);
 
-        return _finishPlatform;
+        return finishPlatform;
     }
 
     private void SpawnPlatform(Platform platform, ref Vector3 spawnPosition, Transform parent)
     {
         Instantiate(platform, spawnPosition, Quaternion.Euler(0, Random.Range(0, 360), 0), parent);
         spawnPosition.y -= 1;
+    }
+
+    private FinishPlatform SpawnPlatform(FinishPlatform platform, ref Vector3 spawnPosition, Transform parent)
+    {
+           
+
+        FinishPlatform finishPlatform = Instantiate(platform, spawnPosition, Quaternion.Euler(0, Random.Range(0, 360), 0), parent);
+        spawnPosition.y -= 1;
+
+        return finishPlatform;
     }
 
 }
