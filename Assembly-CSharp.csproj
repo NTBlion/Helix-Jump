@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E95ECCB1-AE9B-0832-0540-2D2254B71464}</ProjectGuid>
+    <ProjectGuid>{5D5094F7-2B2A-D178-17C6-0804D49B4AF3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,13 +61,13 @@
     <Compile Include="Assets\Scripts\Tower\TowerBuilder.cs" />
     <Compile Include="Assets\Scripts\Platform\FinishPlatformSigment.cs" />
     <Compile Include="Assets\Scripts\Ball\Ball.cs" />
-    <Compile Include="Assets\Scripts\EndGameUI.cs" />
+    <Compile Include="Assets\Scripts\Platform\FinishPlatform.cs" />
     <Compile Include="Assets\Scripts\Platform\PlatformSigment.cs" />
     <Compile Include="Assets\Scripts\Platform\SpawnPlatform.cs" />
     <Compile Include="Assets\Scripts\Platform\Platform.cs" />
     <Compile Include="Assets\Scripts\Ball\BallTracking.cs" />
     <Compile Include="Assets\Scripts\Tower\TowerRotator.cs" />
-    <Compile Include="Assets\Scripts\Platform\FinishPlatform.cs" />
+    <Compile Include="Assets\Scripts\FinishGameUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
