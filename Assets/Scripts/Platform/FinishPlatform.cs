@@ -11,7 +11,6 @@ public class FinishPlatform : Platform
     {
         if(other.TryGetComponent(out Ball ball))
         {
-            Debug.Log("Я здесь");
             FinishGame?.Invoke();
         }
     }

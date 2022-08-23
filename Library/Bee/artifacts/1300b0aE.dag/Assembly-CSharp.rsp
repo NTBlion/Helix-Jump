@@ -350,7 +350,7 @@
 "Assets/Scripts/Ball/Ball.cs"
 "Assets/Scripts/Ball/BallJumper.cs"
 "Assets/Scripts/Ball/BallTracking.cs"
-"Assets/Scripts/GameLogic.cs"
+"Assets/Scripts/Game.cs"
 "Assets/Scripts/LevelGenerator.cs"
 "Assets/Scripts/Platform/FinishPlatform.cs"
 "Assets/Scripts/Platform/Platform.cs"
