@@ -1,2 +1,2 @@
 # Helix-Jump
-Учебный проект
+Training project
